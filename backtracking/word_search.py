@@ -14,6 +14,10 @@ word = "ABCB"
 output = False
 
 Solution - This problem is similar to the rat in a maze problem, Where you find a path and reaches till the end.
+
+Time Complexity: O(3^(m*n)), because on every cell we have to try 3 different directions,
+                as we will not check for the cell from which we have visited in the last move.
+Auxiliary Space: O(m*n), Maximum Depth of the recursion tree(auxiliary space).
 """
 
 class Solution:
